@@ -7,17 +7,12 @@ function DonutChart() {
         labels: ['Anakin', 'Barry Allen', 'Kal-El', 'Logan', 'Padmé']
     }
     
-    const options = {
-        legend: {
-            show: true
-        }
-    }
-
+  
     
 
     return (
         <Chart
-          options={{ ...Option, labels: mockData.labels}}
+          options={{ labels: mockData.labels}}
           series={mockData.series}
           type="donut"
           height="240"
