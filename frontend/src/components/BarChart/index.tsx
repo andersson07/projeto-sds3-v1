@@ -9,7 +9,7 @@ function BarChart() {
             }
         },
     };
-
+    
     const mockData = {
         labels: {
             categories: ['Anakin', 'Barry Allen', 'Kal-El', 'Logan', 'Padmé']
